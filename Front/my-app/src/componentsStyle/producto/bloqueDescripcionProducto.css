@@ -1,0 +1,29 @@
+.descripcionProducto__container{
+    margin: 2rem;
+}
+
+.descripcionProducto__titulo{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.descripcionProducto__detalle{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .descripcionProducto__titulo{
+        font-size: 1.6rem;
+    }
+
+    .descripcionProducto__detalle{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .descripcionProducto__container{
+        margin: 1rem;
+    }
+}

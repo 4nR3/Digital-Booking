@@ -1,0 +1,64 @@
+.modal__redesSociales__container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.iconos__redesSociales__container{
+    background-color:#fff;
+    position: relative;
+    border-radius: 10px;
+    height: 11rem;
+    width: 22rem;
+    
+}
+
+/* .iconos__redesSociales__container{
+    background-color:#fff;
+    position: relative;
+    border-radius: 10px;
+} */
+
+.header__redessociales{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+}
+
+.iconos__btn__salir{
+    position: absolute;
+    background: none;
+    border:none;
+    top: 9px;
+    right: 7px;
+}
+
+.iconos__cerrar__img{
+    filter: opacity(0.4) drop-shadow(0 0 0 grey); 
+    width: 14px;
+    height: 14px;
+    
+    
+} 
+
+
+.header__redessociales__txt{
+    margin: 1.8rem;
+    text-align: center;
+}
+
+.modal__redessociales__iconos{
+    margin: .5rem 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

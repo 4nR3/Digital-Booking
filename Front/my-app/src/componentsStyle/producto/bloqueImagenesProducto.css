@@ -1,0 +1,150 @@
+.modal__imagenes__container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel__container{
+    background-color:#fff;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.carrousel__desktop__btn__salir{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+.carrusel__cerrar__img{
+    width: 19px;
+    height: 19px;
+    
+}
+
+._ZTBlf{
+    border-radius: 100%;
+}
+
+._dZ8C-{
+    display: none !important;
+}
+
+
+
+._2c50p{
+    height: 50px !important;
+}
+
+@media only screen and (max-width:415px) {
+    ._2c50p{
+        display: flex;
+    }
+
+    ._3WRGR{
+        color: red;
+    }
+}
+
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    ._2c50p{
+        display: flex;
+    }
+
+    ._ZTBlf{
+        display: flex;
+    }
+
+    ._3lwW_ ._1R7KP ._29p_Y{
+        visibility: hidden;
+    }
+
+    ._3lwW_{
+        display: none;
+    }
+
+    .__JnHV{
+        position: relative;
+        top: 450px;
+        left: 325px;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+
+    ._-LJ2W{
+        background-color: white;
+        height: 225px;
+
+    }
+
+   ._-cAh3{
+       height: 200px;
+       min-width: 31%;
+        max-width: 200px;
+    }
+
+    .__JnHV{
+        position: relative;
+        top: 400px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        font-weight: bolder;
+        font-size: large;
+        z-index: 5000000000000000;
+    }
+    
+    ._3WRGR{
+        position: relative;
+        left: 3px;
+    }
+
+    ._3WRGR{
+        position: relative;
+        right: 3px;
+    }
+
+    ._1Pekn{
+        width: 60px !important;
+    }
+
+    ._2c50p{
+        position: relative;
+        background-color: white;
+        top: 50px !important;
+        height: 20% !important;
+    }
+
+    ._3q7r8{
+        background-color: white !important;
+    }
+
+    ._-LJ2W{
+        justify-content: space-around !important;
+        position: relative;
+    }
+
+    ._2zEIf:hover, ._1cqA3:hover{
+        background-color: #F0572D;
+        opacity: 0.9;
+        border-radius: 100%;
+    }
+}

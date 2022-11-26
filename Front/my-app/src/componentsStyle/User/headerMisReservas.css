@@ -1,0 +1,86 @@
+.headerMisReservas__container{
+    height: 7.8vh;
+    background-color: #31363F;
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMisReservas__izquierda__container{
+    margin: 0 2rem;
+}
+
+.headerMisReservas__derecha__container{
+    margin: 0 2rem;
+    height: 7.8vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerMisReservas__derecha__container a{
+    height: 7.8vh;
+    
+    display: flex;
+    align-items: center;
+}
+
+.headerMisReservas__txt{
+    margin: 0;
+    
+}
+
+
+.headerMisReservas__img{
+    filter: brightness(1000%);
+
+}
+
+.headerMisReservas__img:hover{
+    filter: grayscale(16);
+    
+}
+
+@media only screen and (min-width:1366px){
+.headerMisReservas__container{
+    margin-top: 9vh;
+}
+
+.headerMisReservas__txt{
+    font-size: 20pt;
+}
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .headerMisReservas__txt{
+        font-size: 20pt;
+    }
+    
+    .headerMisReservas__container{
+        margin-top: 9vh;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .headerMisReservas__container{
+        margin-top: 93px;
+    }
+
+    .headerMisReservas__izquierda__container{
+        margin-left: 1rem;
+    }
+    
+    .headerMisReservas__txt{
+        font-size: 18pt;
+    }
+    
+    .headerMisReservas__derecha__container{
+        margin-right: 1rem;
+    }
+
+    .headerMisReservas__img{
+        width: 1rem;
+    }
+}

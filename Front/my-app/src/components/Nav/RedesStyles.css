@@ -1,0 +1,34 @@
+.divFooter_NavBar{
+
+    width: 100%;
+   background:#F0572D ;
+   height: 58px;
+
+}
+
+
+
+
+.logotipoNavBar{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 8.5pt;
+    margin-left: 2rem;
+    
+}
+
+.redesNavBar{
+    font-size: 28px;
+    width: 100%;
+    background:#F0572D ;
+    height: 58px;
+    display: flex;
+    
+}
+
+.redesNavBar i{
+    padding-left: 30px;
+    margin-top: 14px;
+
+}
+

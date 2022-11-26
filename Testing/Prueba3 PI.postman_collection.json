@@ -1,0 +1,475 @@
+{
+	"info": {
+		"_postman_id": "ee7590ed-816f-49d4-ace1-05850dac2e71",
+		"name": "Prueba PI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18237981"
+	},
+	"item": [
+		{
+			"name": "Crear hostel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Hostel El Gatito\",\r\n    \"descripcion\": \"Pequeño hostel en Miami\",\r\n    \"urlImagen\": \"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear hotel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"descripcion\" : \"Hotel en Punta Blanca frente al mar\",\r\n    \"titulo\": \"Hotel El Perro\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Lista",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar hotel 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar hotel 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Titulo Hotel 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2,\r\n    \"titulo\": \"Departamentos\",\r\n    \"urlImagen\": \"\",\r\n    \"descripcion\": \"Hotel en Punta Blanca frente al mar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Imagen Hotel 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2,\r\n    \"titulo\": \"Departamentos\",\r\n    \"urlImagen\": \"https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768\",\r\n    \"descripcion\": \"Hotel en Punta Blanca frente al mar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categoria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categoria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear caracteristica 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"hotel\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/caracteristica",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"caracteristica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener caracteristica 1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/caracteristica/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"caracteristica",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener productos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear producto completo 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Punta Bella\",\r\n    \"descripcion\": \"Pequeño hostel en Miami\",\r\n    \"categoria\": {\r\n         \"titulo\": \"Hostel Punta Bella\",\r\n        \"descripcion\": \"Pequeño hostel en Miami\",\r\n        \"urlImagen\": \"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    },\r\n    \"ciudad\":{\r\n        \"nombre\":\"Cordoba\",\r\n        \"pais\":\"Argentina\",\r\n        \"mapa_Url\":\"hola123\"\r\n    },\r\n    \"imagen\":[{\r\n        \"titulo\":\"Hotel De Cordoba\",\r\n        \"url\":\"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    }],\r\n    \"caracteristica\":[{\r\n        \"nombre\":\"wifi\",\r\n        \"clase\": \"fas fa-wifi\"\r\n    },\r\n    {\r\n        \"nombre\": \"pileta\",\r\n        \"clase\" : \"fas fa-swimmer\"\r\n    },\r\n    {\r\n        \"nombre\": \"aire\",\r\n        \"clase\": \"fas fa-air-conditioner\"\r\n    }\r\n    \r\n    \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear producto completo 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"El gatito\",\r\n    \"descripcion\": \"Pequeño hostel en Miami\",\r\n    \"categoria\": {\r\n         \"titulo\": \"Hostel El Gatito\",\r\n        \"descripcion\": \"Pequeño hostel en Miami\",\r\n        \"urlImagen\": \"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    },\r\n    \"ciudad\":{\r\n        \"nombre\":\"Cordoba\",\r\n        \"pais\":\"Argentina\",\r\n        \"mapa_Url\":\"hola123\"\r\n    },\r\n    \"imagen\":[{\r\n        \"titulo\":\"Hotel De Cordoba\",\r\n        \"url\":\"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    }],\r\n    \"caracteristica\":[{\r\n        \"nombre\":\"wifi\",\r\n        \"clase\": \"fas fa-wifi\"\r\n    },\r\n    {\r\n        \"nombre\": \"pileta\",\r\n        \"clase\" : \"fas fa-swimmer\"\r\n    },\r\n    {\r\n        \"nombre\": \"aire\",\r\n        \"clase\": \"fas fa-air-conditioner\"\r\n    }\r\n    \r\n    \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear producto completo 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"El perro\",\r\n    \"descripcion\": \"Pequeño hostel en Miami\",\r\n    \"categoria\": {\r\n         \"titulo\": \"Hostel El perro\",\r\n        \"descripcion\": \"Pequeño hostel en Miami\",\r\n        \"urlImagen\": \"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    },\r\n    \"ciudad\":{\r\n        \"nombre\":\"Cordoba\",\r\n        \"pais\":\"Argentina\",\r\n        \"mapa_Url\":\"hola123\"\r\n    },\r\n    \"imagen\":[{\r\n        \"titulo\":\"Hotel De Cordoba\",\r\n        \"url\":\"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    }],\r\n    \"caracteristica\":[{\r\n        \"nombre\":\"wifi\",\r\n        \"clase\": \"fas fa-wifi\"\r\n    },\r\n    {\r\n        \"nombre\": \"pileta\",\r\n        \"clase\" : \"fas fa-swimmer\"\r\n    },\r\n    {\r\n        \"nombre\": \"aire\",\r\n        \"clase\": \"fas fa-air-conditioner\"\r\n    }\r\n    \r\n    \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear producto completo 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"El hamster\",\r\n    \"descripcion\": \"Pequeño hostel en Miami\",\r\n    \"categoria\": {\r\n         \"titulo\": \"Hostel El hamster\",\r\n        \"descripcion\": \"Pequeño hostel en Miami\",\r\n        \"urlImagen\": \"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    },\r\n    \"ciudad\":{\r\n        \"nombre\":\"Cordoba\",\r\n        \"pais\":\"Argentina\",\r\n        \"mapa_Url\":\"hola123\"\r\n    },\r\n    \"imagen\":[{\r\n        \"titulo\":\"Hotel De Cordoba\",\r\n        \"url\":\"https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg\"\r\n    }],\r\n    \"caracteristica\":[{\r\n        \"nombre\":\"wifi\",\r\n        \"clase\": \"fas fa-wifi\"\r\n    },\r\n    {\r\n        \"nombre\": \"pileta\",\r\n        \"clase\" : \"fas fa-swimmer\"\r\n    },\r\n    {\r\n        \"nombre\": \"aire\",\r\n        \"clase\": \"fas fa-air-conditioner\"\r\n    }\r\n    \r\n    \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener productos aleatorios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto/aleatorios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto",
+						"aleatorios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar producto 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/producto/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

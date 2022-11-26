@@ -1,0 +1,53 @@
+
+.dondeVasAEstar{
+    
+    margin-bottom: 5px;
+}
+
+.divMapa{
+    padding-top: 5px;
+}
+
+@media only screen and (max-width:415px){
+    .contenedorMapa{
+        height: 442px;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 5px;
+    }
+
+    .dondeVasAEstar{
+        
+    border-bottom: 1px solid #F0572D;
+    }
+
+    .h2DondeVasAEstar{
+        margin-left: 2%;
+    }
+    
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .contenedorMapa{
+        height: 500px;
+    }
+
+    .divMapa{
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    
+
+}
+
+@media only screen and (min-width:1366px){
+    .contenedorMapa{
+        height: 540px;
+    }
+
+    .divMapa{
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    
+}

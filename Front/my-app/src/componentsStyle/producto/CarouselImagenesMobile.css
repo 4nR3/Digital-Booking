@@ -1,0 +1,53 @@
+
+
+
+@media only screen and (max-width:415px) {
+    ._2c50p{
+        display: none;
+    }
+
+    ._3WRGR{
+        color: red;
+    }
+
+    ._2zEIf, ._1cqA3{
+        display: none;
+    }
+
+    .__JnHV{
+        position: relative;
+        top: 225px;
+        left: 165px;
+        color: white;
+        background-color: transparent !important;
+        font-weight: bolder;
+        font-size: large;
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    ._2c50p{
+        display: none;
+    }
+
+    ._3WRGR{
+        color: red;
+    }
+
+    ._2zEIf, ._1cqA3{
+        display: none;
+    }
+
+    .__JnHV{
+        position: relative;
+        top: 350px;
+        left: 330px;
+        color: white;
+        background-color: transparent !important;
+        font-weight: bolder;
+        font-size: x-large;
+        opacity: 1;
+    }
+}

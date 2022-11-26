@@ -1,0 +1,151 @@
+.atributosPropiedad{
+    background-color: #DFE4EA;
+}
+
+.escondido{
+    display: none;
+}
+
+.atributo{
+    
+    display: flex;
+    padding-top: 20px;
+}
+
+.nombreAtributoPropiedad{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 18px;
+}
+
+.iconoAtributoPropiedad{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 18px;
+}
+
+.inputNombreAtributoPropiedad{
+    width: 98.95%;
+    height: 35px;
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.inputIconoAtributoPropiedad{
+    height: 35px;
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.labelAtributoPropiedad{
+    display: block;
+}
+
+.sumarAtributo{
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #F0572D;
+    border-radius: 5px;
+    border: 0px;
+    float: right;
+}
+
+@media only screen and (max-width:415px) {
+
+    .atributosPropiedad{
+        position: relative;
+        right: 10px;
+        width: 95vw;
+    }
+    
+.nombreAtributoPropiedad{
+    width: 84%;}
+
+    
+.atributo{
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .inputIconoAtributoPropiedad{
+        width: 99%;
+    }
+
+    .iconoAtributoPropiedad{
+        width: 84%;
+    }
+
+.sumarAtributo{
+    position: relative;
+    margin-left: auto;
+    bottom: 38px;
+}
+
+}
+
+
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+
+
+.atributo{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.nombreAtributoPropiedad{
+    width: 85%;
+}
+
+.iconoAtributoPropiedad{
+    width: 85%;
+}
+
+
+.sumarAtributo{
+    position: relative;
+    margin-left: auto;
+    margin-right: 46px;
+    margin-right: 7%;
+    bottom: 38px;
+}
+
+}
+
+
+@media only screen and (min-width:1366px) {
+    
+    
+.nombreAtributoPropiedad{
+    width: 64.3%;}
+    
+.inputNombreAtributoPropiedad{
+    width: 99%;
+}
+
+.inputIconoAtributoPropiedad{
+    width: 23.3vw;
+}
+
+.atributo{
+   flex-wrap: wrap;
+    margin-left: 28px;
+    }
+    
+.sumarAtributo{
+    margin-left: 20px;
+    }
+
+.iconoAtributoPropiedad{
+    
+    width: 28%;
+    margin-left: 10px;
+}
+
+}

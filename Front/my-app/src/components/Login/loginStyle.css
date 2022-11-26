@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 9vh;
+}
+
+.error-login{
+  color: red;
+  font-size: 17px;
+  margin-left: 35px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+
+.cabecera{
+  background-color: #DFE4EA  ;
+  height: 83.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9vh;
+}
+
+.form__container{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__ttl{
+  font-size:  1.7rem;
+  color: #F0572D;
+}
+
+.form__label{
+  display: flex;
+  padding: .2rem 0rem;
+  justify-content: flex-start;
+  
+}
+
+.form__input{
+  margin: 0rem 0rem 0.5rem 0rem;
+  border-radius: .3rem;
+  border: none;
+  box-shadow: 0px 0px 5px 2px rgb(151, 151, 151);
+}
+
+.form__input-pass{
+  background-size: 3vh;
+  background-position: 54vh;
+  background-repeat: no-repeat;
+  
+}
+
+.form__input:focus{
+  outline-color: #F0572D;
+}
+
+.form__btn__container{
+  display: flex;
+  justify-content: center;
+}
+
+.form__btn{
+  background-color: #F0572D;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin: 1rem 0;
+  width: 12vw;
+  height: 5.4vh;
+  border-radius: .5rem;
+}
+
+.form__txtextra{
+  display: flex;
+  align-items: center;
+}
+
+.form__txtextra__anchor{
+  font-weight: 600;
+  margin-left: .5rem;
+  text-decoration: none;
+}
+
+.botonIngresar{
+  background-color: #F0572D;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border-radius: .5rem;
+}
+
+.loginError{
+  background-color: rgba(151, 0, 0, 0.1);
+  color: red;
+  position: absolute;
+  border-radius: 8px;
+  height: 62px;
+  width: 448px;
+  text-align: center;
+  font-size: larger;
+}
+
+#iErrorLogin{
+  font-size: x-large;
+}
+
+.mensaje p{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width:415px) {
+
+  .loginError{
+    top: 22.5%;
+  }
+  
+  .subirLogin{
+      width: 300px;
+  }
+
+  .form__input{
+      width: 300px;
+      height: 40px;
+  }
+
+  .form__container{
+      width: 95%;
+      height: 50vh;
+  }
+
+  
+  .botonIngresar{
+      width: 100%;
+      height: 5.4vh;
+  }
+
+  .form__ttl{
+      position: relative;
+      bottom: 93px;
+  }
+
+  .form__txtextra{
+      position: relative;
+      bottom: 25px;
+  }
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+
+  .loginError{
+  top: 15.5%;
+  }
+
+  .botonIngresar{
+      width: 100%;
+      height: 40px;
+      position: relative;
+      top: 25px;
+  }
+
+  .form__txtextra{
+      position: relative;
+      top: 5px;
+      font-size: 10pt;
+  }
+
+  .form__ttl{
+      position: relative;
+      bottom: 7%;
+  }
+}
+
+@media only screen and (min-width:1366px) {
+
+  .loginError{
+    top: 15.5%;
+  }
+
+  .form__container{
+      width: 40vw;
+      height: 50vh;
+  }
+  
+  
+  .botonIngresar{
+      width: 101%;
+      height: 40px;
+  }
+
+  .cambiarARegistro{
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
+}

@@ -1,0 +1,68 @@
+.descripcionFormProducto{
+    margin-top: 34px;
+}
+
+.inputDescripcionFormProducto{
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    resize: none;
+}
+
+@media only screen and (max-width:415px) {
+
+    .inputDescripcionFormProducto{
+        width: 98.3%;
+        height: 235px;}
+
+    .inputTituloFormProducto{
+        width: 99%;
+        height: 40px;
+        border: none;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        margin-bottom: 25px;
+    
+        }
+
+
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+
+    .inputDescripcionFormProducto{
+        width: 99%;
+        height: 120px;
+    }
+
+        .inputTituloFormProducto{
+            width: 99%;
+            height: 40px;
+            border: none;
+            border: solid 1px #ccc;
+            border-radius: 5px;
+            margin-bottom: 25px;
+    
+        }
+
+}
+
+
+@media only screen and (min-width:1366px) {
+
+    .inputTituloFormProducto{
+        width: 99.7%;
+        height: 40px;
+        border: none;
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        margin-bottom: 25px;
+
+    }
+
+    .inputDescripcionFormProducto{
+        width: 99.7%;
+        height: 120px;}
+    
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "nombre":"Hoteles",
+        "descripcion": "807.105 hoteles",
+        "img": "hotel.jpg"
+        },
+    {
+        "id":"2",
+        "nombre":"Hostels",
+        "descripcion": "807.105 hostels",
+        "img": "hostel.jpg"
+    },
+    {
+        "id":"3",
+        "nombre":"Departamentos",
+        "descripcion": "807.105 departamentos",
+        "img": "departamento.jpg"
+    },
+    {
+        "id":"4",
+        "nombre":"Bed and breakfast",
+        "descripcion": "807.105 Bed and Breakfast",
+        "img": "bed.jpg"
+    }
+    ]

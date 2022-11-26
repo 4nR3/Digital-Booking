@@ -1,0 +1,18 @@
+#iRegistroExistoso{
+    font-size: 100px;
+    color: white;
+}
+
+.recuadroPopUp{
+    background-color: #F0572D;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.recuadroPopUp p, .registroButonOk{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

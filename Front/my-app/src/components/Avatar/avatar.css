@@ -1,0 +1,48 @@
+div.sb-avatar__text{
+    background-color: green;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+}
+.saludo{
+    display: flex;
+    color: #31363F;
+    gap: 35px;
+    position: relative;
+    top: 15px;
+}
+.nombre-avatar{
+color: #F0572D;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+position: relative;
+bottom: 18px;
+}
+.saludo button{
+    font-weight: bold;
+    color: #31363F;
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    top: 15px;
+
+}
+
+@media only screen and (max-width:415px) {
+
+    .avatar{
+        bottom: 3px;
+       
+    }
+    
+    
+}

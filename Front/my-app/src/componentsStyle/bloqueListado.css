@@ -1,0 +1,313 @@
+.bloqueListado{
+    background-color: #DFE4EA;
+    
+}
+
+.listado_contenedor_titulo{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-top: .1rem;
+    height: 3rem;
+
+}
+
+.card__derecha__container{
+}
+
+#cardDerechaContainerListadoHome{
+    position: relative;
+}
+
+.titulolistado{
+    bottom: 0;
+    margin-top: 3rem;
+    
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #191B1D;
+}
+
+.cards__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: .5%;
+    
+}
+
+.card__hospedaje{
+  
+    background-color: white;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #F0572D;
+}
+
+
+.card__imagen{
+    object-fit: cover;
+    
+}
+
+.card__categoriaYTitulo h3{
+    margin-top: -5%;
+}
+
+.card__descripcion{
+    margin-top: 0;
+    width: 35ch;
+    height: 6ch;
+}
+
+/* .carddescripcion_mas{
+    font-size: .8rem;
+}*/
+
+.card__lugar{
+    font-size: .88rem;
+    
+}
+
+.botonVerMas{
+    position: absolute;
+    background-color: #F0572D;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    width: 95%;
+    height: 40px;
+    border-radius: .5rem;
+
+}
+
+.card__titulo{
+    font-size: 24px;
+}
+
+.ubicacion{
+    position: relative;
+    bottom: 10px;
+}
+
+.puntuacion{
+    color: #F0572D;
+    font-size: 12.5px;
+}
+
+.caracterisitcasCard{
+    margin-right: 7.5px;
+}
+
+.BotonFiltroOn{
+    border: 1px solid rgb(219, 219, 219);
+border-radius: 10px;
+background-color: #ffffff;
+box-shadow: 0px 7px 13px -5px rgba(0,0,0,0.66);
+margin: 0.7em;
+margin-right: 0;
+margin-bottom: .8em;
+margin-left: 1.6em;
+font-weight: 450;
+font-size: 15pt;
+color: #191B1D;
+width: 10em;
+}
+
+.BotonFiltroOnFecha{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 7px 13px -5px rgba(0,0,0,0.66);
+    margin: 0.7em;
+    margin-right: 0;
+    margin-bottom: .8em;
+    margin-left: 1.6em;
+    font-weight: 450;
+    font-size: 15pt;
+    color: #191B1D;
+    width: 14em;
+}
+
+.BotonFiltroOn:hover {
+    background-color: #fdb19b;
+  }
+
+  .BotonFiltroOnFecha:hover {
+    background-color: #fdb19b;
+  } 
+
+  .BotonFiltroOnCategoria{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 7px 13px -5px rgba(0,0,0,0.66);
+    margin: 0.7em;
+    margin-right: 0;
+    margin-bottom: .8em;
+    margin-left: 1.6em;
+    font-weight: 450;
+    font-size: 15pt;
+    color: #191B1D;
+    width: 9em;
+
+  }
+
+  .BotonFiltroOnCategoria:hover {
+    background-color: #fdb19b;
+  } 
+
+
+.no_disponibilidad{
+    margin-left:2rem;
+    margin-right: 5rem;
+}
+  
+
+@media only screen and (max-width:415px) {
+    
+    .card__hospedaje{
+        margin: 0.5rem .8rem;
+        width: 95%;
+        height: 491px;
+        flex-wrap: wrap;
+        border-bottom-left-radius: .8rem;
+        border-bottom-right-radius: .8rem;
+    }
+
+    .card__izquierda__container{
+        width: 100%;
+        height: 47%;
+    }
+
+    .card__imagen{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: .8rem;
+        border-bottom-right-radius: .8rem;
+    }
+
+    .card__derecha__container{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 100%;
+    }
+
+    .divCaracteristicas{
+        visibility: hidden;
+    }
+
+    .aBotonVerMas{
+        position: relative;
+        display: flex;
+        bottom: 25px;
+
+    }
+
+    .botonVerMas{
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .card__descripcion{
+        position: relative;
+        bottom: 35px;
+        width: 35ch;
+        height: 6ch;
+        white-space: wrap;
+        text-overflow: clip;
+        overflow: hidden;
+    }
+
+    .bloqueListado{
+        padding-bottom: 5%;
+        background-color: #31363F;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    
+    .cards__contenedor{
+        margin-bottom: 3.5rem;
+    }
+
+    .card__izquierda__container{
+        display: flex;
+        width: 375px;
+        height: 99%;
+    }
+
+    .card__imagen{
+        width: 375px;
+        height: 95%;
+        border-top-right-radius: .8rem;
+        border-bottom-right-radius: .8rem;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .card__hospedaje{
+        
+        height: 279px;
+        width: 95%;
+        border-radius: .8rem;
+        margin-bottom: 4%;
+        margin-left: 1rem;
+    }
+
+    .card__derecha__container{
+        position: relative;
+        left: 1.5%;
+    }
+
+    .divCaracteristicas{
+        position: relative;
+        bottom: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width:1366px) {
+
+    .bloqueListado{
+        padding-bottom: 1.5%;
+    }
+
+    .card__hospedaje{
+        height: 283px;
+        border-radius: .8rem;
+        width: 47%;
+        margin-left: 0.75%;
+        margin-right: 0.75%;
+        margin-top: 1.5%;
+    }
+
+    .card__izquierda__container{
+        width: 100%;
+    
+    }
+
+    .card__imagen{
+        width: 100%;
+        height: 283px;
+        border-radius: .8rem;
+        
+    }
+
+    .card__derecha__container{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .divCaracteristicas{
+        position: relative;
+        bottom: 20px;
+    }
+    
+    
+}

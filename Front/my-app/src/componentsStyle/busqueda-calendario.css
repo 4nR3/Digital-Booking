@@ -1,0 +1,228 @@
+
+.rdmp-range{
+  background-color: #F0572D !important;
+}
+
+.home .rmdp-day.rmdp-range{
+  background-color: #F0572D !important;
+}
+
+.home .rmdp-day.rmdp-range.start{
+  background-color: #F0572D !important;
+}
+
+
+@media only screen and (max-width:415px) {
+
+  .rmdp-container {
+    width: 95%;
+    height: 33px;
+    margin-top: 9px;
+  }
+  
+  .rmdp-calendar{
+    width: 50% !important;
+  }
+
+  .rmdp-top-class{
+    width: 40% !important;
+  }
+
+  .rdmp-wrapper{
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .rdmp-header{
+    align-items: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+}
+
+
+@media only screen and (min-width:415px) {
+ 
+  .rmdp-container {
+  width: 28%;
+  height: 33px;
+  position: relative;
+}
+}
+
+.rmdp-container::before {
+  content: "\f073";
+  color: #545776;
+  font-size: 20px;
+  opacity: 1;
+  visibility: visible;
+  font-family: "Font Awesome 5 Free";
+  top: 8px;
+  position: relative;
+  z-index: 1;
+  left: 2%;
+}
+
+.rmdp-input {
+  width: 88%;
+  height: 33px !important;
+  position: relative;
+  bottom: 24px;
+  color: black;
+  font-weight: bold;
+  border-color: 1px solid black;
+  padding-left: 10% !important;
+}
+
+
+.contenedor-home-calendario .rmdp-container {
+  width: 100%;
+  height: 33px;
+  outline: none;
+  border-color: transparent;
+  border: 1px solid #f3f1ed;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.home .rmdp-day span,
+.home .rmdp-header-values span,
+.home .rmdp-week-day {
+  font-size: 20px;
+  font-weight: 700;
+}
+.home .rmdp-week-day {
+  color: #545776;
+}
+
+.home .rmdp-week {
+  justify-content: space-around;
+}
+/* El color del mes y año*/
+.home .rmdp-header-values {
+  color: var(--three-color);
+}
+
+.home .rmdp-left,
+.home .rmdp-right {
+}
+
+.rdmp-day:hover{
+  color: black;
+}
+
+/* El día seleccionado actualmente */
+.home .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover{
+  background-color: var(--one-color);
+}
+
+
+.sd:hover{
+  background-color: #F0572D !important;
+}
+
+.rdmp-arrow-container{
+  background-color: #F0572D !important;
+}
+
+/* El día de hoy */
+.home .rmdp-day.rmdp-today span {
+  background-color: var(--one-color);
+}
+
+.home span.sd {
+  font-size: 16px;
+  color: black;
+}
+
+/* Dias deshabnilitados */
+.home .rmdp-day.rmdp-disabled span {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* La distancia entre los dias */
+.home .rmdp-day {
+  padding: 20px;
+  margin: 7px;
+}
+.home .rmdp-input {
+  height: 33.7px;
+  outline: none;
+  border-color: transparent;
+  width: 60%;
+}
+
+.home .rmdp-day.rmdp-range {
+  background-color: blue;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.home .rmdp-day.rmdp-range span {
+  color: #fff;
+}
+.home .rmdp-day.rmdp-range.start {
+  background-color: #1dbeb4;
+  box-shadow: 0 0 3px #1dbeb4;
+  color: #fff;
+  border-radius: 50%;
+}
+.home .rmdp-day.rmdp-range.end {
+  background-color: #1dbeb4;
+  box-shadow: 0 0 3px #1dbeb4;
+  color: #fff;
+  border-radius: 50%;
+}
+/*--------------MODELO ADAPTATIVO TABLET---------------*/
+
+@media (min-width: 768px)  {
+  /* La distancia entre los días */
+  .home .rmdp-day {
+    padding: 0px;
+    margin: 3px;
+  }
+
+  .home .rmdp-container {
+    width: 260px;
+  }
+
+  .home .rmdp-day-picker {
+    background-color: white;
+    /* width: 650px; */
+  }
+  .home .rmdp-top-class {
+    background-color: white;
+    /* right: 250px; */
+  }
+
+  .home .rmdp-day-picker {
+    margin-right: 50px;
+  }
+  .home .rmdp-top-class {
+    margin-right: 20px;
+  }
+ 
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .rmdp-input {
+    padding-left: 13%;
+  }
+  .rmdp-container::before {
+    top: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home .rmdp-container {
+    width: 420px;
+  }
+  .home .rmdp-top-class {
+    width: 100%;
+  }
+}

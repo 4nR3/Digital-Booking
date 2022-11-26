@@ -1,0 +1,15 @@
+.anvorgesaAbierta{
+   z-index: 4;
+}
+
+.anvorgesaCerrada{
+    z-index: 5;
+    -webkit-animation: left 0.3s linear;;
+    transition-property: left 0.3s linear;
+    transition-delay: 0s;
+}
+
+
+.navBar{
+    z-index: 5;
+}

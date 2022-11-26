@@ -1,0 +1,59 @@
+.buscar {
+    background-color: rgb(255, 108, 23);
+    border-radius: 5px;
+    height: 40px;
+}
+
+.botonBuscar{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    font-weight: 700;
+    font-size: 12pt;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    color: white;
+    align-items: center;
+    border-radius: 5px; 
+}
+
+.botonBuscar:hover{
+    
+  background-color: #DFE4EA;
+  color:  rgb(255, 108, 23);
+  
+}
+
+@media only screen and (max-width:415px) {
+
+    .buscar {
+      
+        width: 95%;
+        height: 40px;
+
+        position: relative;
+        bottom: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .buscar {
+      
+        width: 166px;
+        height: 40px;
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+
+    .buscar {
+        width: 14%;
+        height: 40px;
+        margin-left: 1rem;
+    }
+
+}

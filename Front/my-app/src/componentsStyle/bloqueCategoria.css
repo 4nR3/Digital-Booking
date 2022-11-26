@@ -1,0 +1,154 @@
+.bloqueCategoria{
+    background-color: white;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedorTituloAndCards{
+   
+    margin-top: 0px;
+    background-color:white;
+}
+
+.tituloCategoria{
+    
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #191B1D;
+    
+    
+}
+
+.contenedorCategoria{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    
+    /* margin: 20px; */
+    
+}
+
+.cardCategoria{
+    width: 300px; 
+    height: 255px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 7px 13px -5px rgba(0,0,0,0.66);
+    gap: 25px;
+    
+}
+
+.imagenCategoria{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.textoCategorias{
+    margin-left: 7px;
+    
+}
+
+.titleCategoria{
+    margin: .3em;
+    margin-bottom: .2em;
+    font-weight: 700;
+    font-size: 15pt;
+    color: #191B1D;
+    
+}
+
+.descripcionCategoria{
+    margin-top: .2em;
+    margin-left: .5em;
+    font-weight: 700;
+    font-size: 11pt;
+    color: #5e5f61;
+}
+
+
+.cardCategoria:hover{
+    background-color: #fc9f86;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:415px) {
+
+    .tituloCategoria{  
+        margin-left: 3.5%;
+    }
+
+    .contenedorTituloAndCards{
+   
+        margin-top: 0px;
+        background-color:white;
+    }
+
+    .cardCategoria{
+        width: 95%;
+        height: 276px;
+        margin-bottom: 4.5%;
+    }
+
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .tituloCategoria{
+    
+        margin-left: 18px;
+    }
+
+    .contenedorTituloAndCards{
+   
+        margin: 25px;
+    }
+
+    .contenedorCategoria{
+    bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+    .cardCategoria{
+        width: 45%; /*300px */
+        height: 255px;    
+        margin-top: 2%;   
+    }
+
+    .bloqueCategoria{
+        margin-top: 245px;
+    }
+}
+
+
+@media only screen and (min-width:1366px) {
+
+    .tituloCategoria{
+    
+        margin-left: 18px;
+    }
+
+    .contenedorTituloAndCards{
+   
+        margin: 25px;
+    }
+
+    .contenedorCategoria{
+    bottom: 15px;
+    }
+
+    .cardCategoria{
+        width: 300px; /*300px */
+        height: 255px;       
+    }
+
+    .bloqueCategoria{
+        margin-top: 225px;
+    }
+}

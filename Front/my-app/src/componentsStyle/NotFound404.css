@@ -1,0 +1,20 @@
+.notFound404{
+
+    background-color: red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.notFound404_text{
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.iconoError404{
+    
+}

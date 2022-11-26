@@ -1,0 +1,67 @@
+[
+    {
+        "id":"1",
+        "img": "hotel.jpg",
+        "category": "Hotel",
+        "title": "Hermitage Hotel",
+        "location": "Córdoba",
+        "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+        },
+        {
+            "id":"2",
+            "img": "hotel.jpg",
+            "category": "Hotel",
+            "title": "Hermitage Hotel",
+            "location": "Córdoba",
+            "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+            },
+        {
+            "id":"3",
+            "img": "Hostel.jpg",
+            "category": "hostel",
+            "title": "Rivera Hostel",
+            "location": "Córdoba",
+            "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+            },
+        {
+            "id":"4",
+            "img": "Hostel.jpg",
+            "category": "hostel",
+            "title": "Rivera Hostel",
+            "location": "Córdoba",
+            "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+            },
+            {
+                "id":"5",
+                "img": "bed.jpg",
+                "category": "Bed and Breackfast",
+                "title": "B&B",
+                "location": "Córdoba",
+                "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+                },
+            {
+                "id":"6",
+                "img": "bed.jpg",
+                "category": "Bed and Breackfast",
+                "title": "B&B",
+                "location": "Córdoba",
+                "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+                },
+            {
+                "id":"7",
+                "img": "departamento.jpg",
+                "category": "Departamento",
+                "title": "Torre 1",
+                "location": "Córdoba",
+                "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am."
+                },
+            {
+                "id":"8",
+                "img": "departamento.jpg",
+                "category": "Bed and Breackfast",
+                "title": "Torre 2",
+                "location": "Córdoba",
+                "description": "Spill litter box, scratch at owner, destroy all furniture, especially couch mewl for food at 4am..."
+                }
+
+    ]

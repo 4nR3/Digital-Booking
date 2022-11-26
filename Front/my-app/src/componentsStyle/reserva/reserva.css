@@ -1,0 +1,294 @@
+.template__reserva__container {
+    background-color: #DFE4EA;
+
+}
+
+.div1Reserva {
+    padding-left: 1rem;
+}
+
+.swal-button{
+    background-color: #F0572D;
+}
+
+.swal-button:hover{
+    background-color: #f0572d8e;
+    border-radius: 5px;
+}
+
+.swal-overlay--show-modal .swal-modal {
+    pointer-events: cursor;
+  }
+
+  .swal-button-container:hover{
+    background-color: #f0572d8e;
+color: rgb(12, 31, 31);
+border-radius: 5px;
+
+  }
+
+  .swal-button:not([disabled]):hover {
+    background-color: #f0572d8e;
+    border-radius: 5px;
+  }
+
+  .swal-text {
+    font-size: 20px;}
+
+
+.form__calendario__detalle__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.reserva__form__titulo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-top: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.reserva__calendario__titulo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.reserva__horario__titulo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-top: -1rem;
+}
+
+
+.card__detalle__reserva {
+    position: relative;
+    height: 52rem;
+    width: 34%;
+    border-radius: .8rem;
+    background-color: white;
+    margin-top: 3.1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 7px 15px -5px rgb(126, 125, 125);
+
+}
+
+
+.card__reserva__detalle__ttl {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
+.card__reserva__categoria {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: rgb(151, 149, 149);
+    margin-bottom: .7rem;
+}
+
+.card__reserva__nombreHospedaje {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: .4rem;
+    margin-bottom: 0;
+}
+
+.reserva__puntuacionM {
+    margin-left: 1rem;
+}
+
+.reserva__ubicacion__container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.reserva__ubicacion__img {
+    width: .7rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    margin-top: .2rem;
+}
+
+.reserva__ubicacion__txt {
+    font-weight: 700;
+    margin-top: 1.2rem;
+
+}
+
+input:disabled{
+    color: black;
+}
+
+.reserva__checkHorario__container {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid #726d6c;
+    border-top: 1px solid #726d6c;
+    display: flow-root;
+}
+
+.check{
+    display:flex;
+    border-bottom: 1px solid #c7b7b3;
+    align-items: center;
+}
+
+.check__fecha{
+    font-weight: 700;
+margin-left: 15rem;
+}
+
+.check__fecha_in{
+font-weight: 700;
+margin-left: 16rem;}
+
+.reserva__checkIn,
+.reserva__checkOut {
+
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.reserva__checkIn {
+   margin-right: 0rem;
+}
+
+
+.card__reserva__detalle__btn {
+    position: absolute;
+    bottom: 0;
+    background-color: #F0572D;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+
+    margin: 1rem 1rem;
+    width: 93%;
+    height: 8vh;
+    border-radius: .5rem;
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px) {
+    .form__calendario__detalle__container {
+        display: block;
+        align-items: center;
+
+
+    }
+
+    .reserva__calendario__titulo {
+        padding-bottom: 0;
+    }
+
+
+    /* #calendars{
+        margin-left: -1.5rem;
+        margin-top: 1.8rem;
+    } */
+
+    .reserva__calendario__container__libreria {
+        margin-left: -1.4rem;
+    }
+
+    .reserva__horario__titulo {
+        margin-top: .5rem;
+
+    }
+
+    .card__detalle__reserva {
+        height: 26rem;
+        width: 44rem;
+    }
+
+    .card__reserva__detalle__ttl {
+        padding-top: 1.1rem;
+        margin-bottom: .5rem;
+    }
+
+    .card__reserva__categoria {
+        font-size: 1.3rem;
+
+
+    }
+
+    .card__reserva__nombreHospedaje {
+        font-size: 1.4rem;
+        margin-bottom: -.3rem;
+    }
+
+    .reserva__datos__container {
+        width: 50%;
+        height: 22rem
+    }
+
+    .card__reserva__detalle__btn {
+
+        margin-bottom: 1.7rem;
+
+
+
+        width: 44%;
+        height: 6vh;
+
+    }
+
+    .reserva__checkHorario__container {
+        margin-top: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-bottom: 1px solid #726d6c;
+        border-top: 1px solid #726d6c;
+    }
+
+    .reserva__puntuacionM {
+        margin-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:415px) {
+    .form__calendario__detalle__container {
+        display: block
+    }
+
+    .div1Reserva {
+        padding-left: 0;
+    }
+
+    .card__detalle__reserva {
+        width: 100%;
+        height: 43rem;
+    }
+
+    .reserva__puntuacionM {
+        margin-left: 1rem;
+    }
+
+    .reserva__checkHorario__container {
+        margin-top: 0;
+    }
+
+    .reserva__info__horario {
+        margin-top: 0px;
+    }
+
+    .reserva__horario__titulo {
+        margin-bottom: 0.3rem;
+    }
+
+}

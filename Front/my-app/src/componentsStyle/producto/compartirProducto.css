@@ -1,0 +1,52 @@
+.iconosShare__container{
+    margin-left: 2rem; 
+    margin-top: 1rem;
+    
+}
+
+.iconosShare__share__btn{
+    background: transparent;
+    border: none;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48;
+  margin-right: .5rem;
+  cursor: pointer;
+  
+}
+
+
+
+/*.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  cursor: pointer;
+} */
+
+@media only screen and (min-width:415px) and (max-width:1365px) {
+    .iconosShare__container{
+        margin-bottom: .7rem;
+    }
+    
+
+}
+
+@media only screen and (max-width:415px) {
+    .iconosShare__container{
+        margin-bottom: .5rem;
+        
+    }
+
+    
+
+}

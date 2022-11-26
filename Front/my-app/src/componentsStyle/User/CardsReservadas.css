@@ -1,0 +1,78 @@
+.paginaReservasUsuario{
+    background-color: #DFE4EA; 
+    
+}
+
+.noReservas{
+    display: flex;
+    margin:auto;
+    min-height: 70vh;
+}
+
+.mensajeNoReservas{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#iconoNoReservas{
+    font-size: 4.5rem;
+}
+
+.inicioNoRservaBoton{
+    
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    background-color: rgb(255, 108, 23);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.19rem;
+    padding: 0.7rem 6rem;
+}
+
+.contenedorCardsReservedas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:415px) {
+   
+    .cardsReservadas{
+        padding-bottom: 5%;
+    }
+
+    .paginaReservasUsuario{
+        min-height: 85vh;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+
+    .cardsReservadas{
+        margin-top: 15px;
+    }
+
+    .paginaReservasUsuario{
+        min-height: 90vh;
+    }
+    
+    .contenedorCardsReservedas{
+        margin-bottom: 3.5rem;
+    }
+
+}
+
+
+@media only screen and (min-width:1366px) {
+
+    .paginaReservasUsuario{
+        min-height: 90vh;
+    }
+
+    .cardsReservadas{
+        padding-bottom: 5.5%;
+    }  
+    
+}

@@ -1,0 +1,106 @@
+.cardsProductosEditar{
+    min-height: 75vh;
+}
+
+.contenedorCardsEditar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Collapsible__trigger{
+    display: table;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.Collapsible{
+    background-color: #F0572D;
+    color: white;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.Collapsible__contentInner{
+    color: black;
+
+}
+
+@media only screen and (max-width:415px){
+
+    #atributosEditarId{
+        width: 82vw !important;
+    }
+
+    #divImagenesEditarId{
+        width: 82vw !important;
+    }
+
+    .cardsProductosEditar{
+        padding-bottom: 20%;
+    }
+
+    .Collapsible{
+    
+        width: 100%;
+    }
+
+    .Collapsible__contentOuter{
+        margin-top: 25px;
+        position:absolute;
+        left: 0px;
+        background-color: #31363F;
+        z-index: 1;
+        width: 100%;
+    
+    }
+    
+    .Collapsible__contentInner{
+        margin: 5px;
+    }
+    
+
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+
+    .cardsProductosEditar{
+        padding-bottom: 3.5rem;
+    }
+
+    .Collapsible__contentOuter{
+        margin-top: 55px;
+        position: absolute;
+        left: 0px;
+        background-color: #31363F;
+        z-index: 1;
+        width: 98.5%;
+    
+    }
+}
+
+@media only screen and (min-width:1366px) {
+
+    .cardsProductosEditar{
+        padding-bottom: 6%;
+    }
+
+.Collapsible{
+    width: 95%;
+}
+
+.Collapsible__contentOuter{
+    position: absolute;
+    left: 10px;
+    margin-top: 35px;
+    background-color: #31363F;
+    z-index: 1;
+    width: 98.5%;
+
+
+}
+
+
+}

@@ -1,0 +1,118 @@
+.grid___container{
+    position: relative;
+
+}
+
+.img__grid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.img__container--chica1{
+    grid-area: img___1;
+}
+
+.img__container--chica2{
+    grid-area: img___2;
+}
+.img__container--chica3{
+    grid-area: img___3;
+}
+
+.img__container--chica3{
+    grid-area: img___4;
+}
+
+
+.grid__container--txt{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2.8rem;
+    margin-right: 2.8rem;
+    
+    color: white;
+    
+}
+
+.grid__contariner__btn{
+    margin-bottom: -2rem;
+    /*bottom: 20px; */
+    right: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: linear-gradient(to top left, rgb(48, 46, 44) 20%, #b45f47 60%, #F0572D 20%);
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    border-radius: .3rem;
+}
+
+@media only screen and (max-width:415px) {
+    .img__container--img--grande{
+        width: 100%;
+    }
+
+    .img__container--chica1{
+        display: none;
+    }
+    .img__container--chica2{
+        display: none;
+    }
+    .img__container--chica3{
+        display: none;
+    }
+    .img__container--chica4{
+        display: none;
+    }
+
+    .grid__container--txt{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .img__container--img--grande{
+        width: 100%;
+    }
+
+    .img__container--chica1{
+        display: none;
+    }
+    .img__container--chica2{
+        display: none;
+    }
+    .img__container--chica3{
+        display: none;
+    }
+    .img__container--chica4{
+        display: none;
+    }
+
+    .grid__container--txt{
+        display: none;
+    }
+   
+}
+
+@media only screen and (min-width:1366px) {
+    .grid___container{
+        display: grid;
+        padding: .5rem 2rem;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 210px;
+        grid-gap: 1rem;
+    grid-template-areas:
+    "img___1 img___1 img___2 img___3"
+    "img___1 img___1 img___4 img___5"
+        ;
+    }
+
+    .img__grid{
+        border-radius: 10px;
+    }
+    
+}

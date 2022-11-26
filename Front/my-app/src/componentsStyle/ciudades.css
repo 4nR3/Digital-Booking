@@ -1,0 +1,166 @@
+.paisCiudad{
+   color:#545776;
+   margin-left: 20px;
+   font-size: 7px,
+ }
+
+ .ciudadSelectCiudad{
+   display: block;
+ }
+
+.selectClass{
+
+   height: 40px;
+   border-radius: 5px;
+   margin-top: -25px;
+   font-size: 15px;
+   color: #545776;
+}
+
+.opcionCiudadBusqueda{
+   font-weight: 350;
+   color: #545776;
+   border-radius: 5px;
+
+}
+
+#ubicacionCiudad{
+   content: "\f073";
+   color: #545776;  
+   font-family: "Font Awesome 5 Free";
+   position: relative;
+   top:8.5px;
+   left:15px;
+   margin-left: .3rem;
+   z-index: 600;
+}
+
+.selectClass i{
+   color: rgba(128, 128, 128, 0.773);
+   
+}
+
+.ciudad__icono{
+   background-image: url(../img/posicion.png);
+   background-size: 6vh;
+   background-repeat: no-repeat;
+} 
+
+.selectClass option{
+   width: 95% !important;
+   
+}
+
+.css-qc6sy-singleValue{
+   overflow: none;
+}
+
+.selectClass-items{
+   width: 0;
+   background-color: rgb(202, 140, 24);
+   height: 0;
+}
+
+.css-1pahdxg-control{
+border-color: rgb(202, 140, 24);
+}
+
+.css-x19aeh-control{
+   margin-right: 30px;
+   margin-top: 5px;
+}
+
+.css-frn0fp-control{
+
+   margin-top: 5px;
+}
+
+.css-1n7v3ny-option {
+   background-color:rgb(202, 140, 24);
+   color:inherit;
+   cursor:default;
+   display:block;
+   font-size:inherit;
+   padding:8px 12px;
+   width:100%;
+   -webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+   -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+   box-sizing:border-box;
+  }
+
+  .css-1n7v3ny-option:active {
+   background-color:rgb(202, 140, 24);
+  }
+  
+  .css-yt9ioa-option {
+   background-color:transparent;
+   color:inherit;
+   cursor:default;
+   display:block;
+   font-size:inherit;
+   padding:8px 12px;
+   width:100%;
+   -webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+   -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+   box-sizing:border-box;
+  }
+
+
+  .css-qc6sy-singleValue {
+   color:hsl(0, 0%, 20%);
+   grid-area:1/1/2/3;
+   margin-left:2px;
+   margin-right:2px;
+   max-width:100%;
+   overflow:hidden;
+   text-overflow:ellipsis;
+   white-space:nowrap;
+   box-sizing:border-box;
+  
+  }
+
+.css-14el2xx-placeholder{
+   margin-left: 9px;
+}
+.css-319lph-ValueContainer{
+   margin-left: 10px;
+}
+@media only screen and (max-width:415px) {
+
+   .selectClass{
+
+       width: 95%;
+       margin-left: 2.5%;
+   }
+   
+   .ciudad{
+       width: 100%;
+   }
+
+   .opcionesCiudades{
+       width: 95%;
+       margin-left: 2.5%;
+   }
+   
+}
+
+
+@media only screen and (min-width:415px) {
+
+   .selectClass{
+       width: 100%;
+   }
+
+   .ciudad{
+       width: 28%;
+       margin-right: 1rem;
+   }
+   
+   
+}

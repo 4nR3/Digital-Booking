@@ -1,0 +1,78 @@
+.imagenesPropiedad{
+    display: flex;
+}
+
+.inputLinkImagen{
+    width: 91%;
+    height: 35px;
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.agregarImagen{
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 2.25%;
+    background-color: #F0572D;
+    border-radius: 5px;
+    border: 0px;
+    float: right;
+}
+
+.imagenes{
+    background-color: #DFE4EA;
+}
+
+@media only screen and (max-width:415px) {
+
+    .imagenes{
+        position: relative;
+        right: 10px;
+        width: 95vw;
+    }
+
+    .imagenesPropiedad{
+    
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 80px;
+    }
+
+    .inputLinkImagen{
+        
+        margin-left: 5px;
+        }
+
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .imagenesPropiedad{
+    
+        height: 120px;}
+
+    .inputLinkImagen{
+        
+    margin-left: 28px;
+    }
+
+}
+
+
+@media only screen and (min-width:1366px) {
+
+    .imagenesPropiedad{
+    
+        height: 120px;}
+
+        .inputLinkImagen{
+        
+            margin-left: 28px;
+            }
+    
+}

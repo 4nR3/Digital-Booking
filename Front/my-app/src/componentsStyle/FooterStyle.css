@@ -1,0 +1,64 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 58px;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+.logotipo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 8.5pt;
+    margin-left: 2rem;
+    
+}
+
+.redes{
+    font-size: 28px;
+    margin-right: 2rem;
+}
+
+.redes i{
+    padding-left: 30px;
+}
+
+.divFooter{
+    color: white;
+    background-color: #F0572D;
+    bottom: 0%;
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    
+}
+
+@media only screen and (max-width:415px) {
+    .redes{
+        display: none;
+    }
+
+    .logotipo{
+        margin-left: 1rem;
+    }
+    
+}
+
+@media only screen and (min-width:415px) and (max-width:1365px){
+    
+    
+    .redes{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+    .redes{
+        display: flex;
+    }
+
+    
+}
